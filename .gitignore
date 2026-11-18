@@ -2,3 +2,9 @@
 *.sw[po]
 .DS_Store
 Gemfile.lock
+
+# Claude Code's local per-project notes, settings, worktrees and scheduler lock
+/CLAUDE.local.md
+/.claude/*.local*
+/.claude/worktrees/
+/.claude/scheduled_tasks.*
